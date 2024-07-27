@@ -1,0 +1,151 @@
+/* --- Developer Lucas E. Dickmann --- */
+/* -- Stylesheet for the decoder -- */
+
+:root {
+    --primeira-color: #000000;
+    --segunda-color: #f2f2f2;
+    --terceira-color: #0A3871;
+    --quarta-color: #4684cf;
+    --quinta-color: #858585;
+    --hover-color: #4684cf;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--segunda-color);
+}
+header {
+    display: flex;
+    background-color: var(--primeira-color);
+    padding: 0.5%;
+}
+main  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+.content__elevado {
+    display: flex;
+    background-color: var(--primeira-color);
+    color: var(--segunda-color);
+    padding: 2% 3% 2% 1%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 5);
+}
+.logo {
+    display: flex;
+    align-self: self-start;
+    padding: 1% 1% 5% 0%;
+}
+.logo__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+.decodif__conteudo__titulo {
+    display: flex;
+    padding: 0% 0 1% 0;
+    gap: 1%;
+    justify-content: center;
+    color: var(--segunda-color);
+}
+.decodif__conteudo__subtitulo {
+    display: flex;
+    padding: 0% 0 2% 0;
+    gap: 1%;
+    justify-content: center;
+    color: var(--segunda-color);
+}
+.decodif__conteudo__input {
+    display: flex;
+    flex-direction: column;
+}
+.decodif__conteudo__input__campo {
+    background-color: var(--segunda-color);
+    color: var(--primeira-color);
+    border: 1px solid var(--primeira-color);
+    padding: 30% 0 55% 0;
+    border-radius: 20px;
+    width: 650px;
+}
+.decodif__conteudo__input__campo::placeholder {
+    font-size: 2em;
+    padding-top: 1.5%;
+    color: var(--quinta-color);
+}
+.decodif__conteudo__paragrafo {
+    display: flex;
+    padding: 2% 0 1% 0;
+    gap: 1%;
+    justify-content: center;
+    color: var(--segunda-color);
+}
+.decodif__btn {
+    display: flex;
+    gap: 5%;
+    align-self: center;
+    padding: 2% 0 2% 0;
+}
+.decodif__btn__cript {
+    background-color: var(--terceira-color);
+    color: var(--segunda-color);
+    border: 2px solid var(--quarta-color);
+    padding: 3% 0 3% 0;
+    border-radius: 11px;
+    width: 328px;
+    font-size: 100%;
+    text-decoration: none;
+}
+.decodif__btn__cript:hover {
+    background-color: var(--hover-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.decodif__btn__descript {
+    background-color: var(--quinta-color);
+    color: var(--primeira-color);
+    border: 2px solid var(--quarta-color);
+    padding: 3% 0 3% 0;
+    border-radius: 11px;
+    width: 328px;
+    font-size: 100%;
+    text-decoration: none;
+}
+.decodif__btn__descript:hover {
+    background-color: var(--hover-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.decodif__resultado {
+    background-color: var(--segunda-color);
+    color: var(--primeira-color);
+    padding: 10% 0 18% 0;
+    margin:  2.4% 0 0 4%;
+    border-radius: 20px;
+    width: 330px;
+    text-align: center;
+}
+.decodif__resultado__img {
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    border-radius: 10%;
+}
+.decodif__resultado__titulo {
+    align-self: center;
+    padding: 22% 0 3% 0;
+}
+.rodape {
+    background-color: var(--primeira-color);
+    color: var(--segunda-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    gap: 0.5%;
+    padding: 0.85%;
+}
