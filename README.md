@@ -1,4 +1,4 @@
-<h1 align="center">Alura Challenge | Encriptador de Texto | Oracle ONEA</h1>
+<h1 align="center">Alura Challenge | Encriptador de Texto | Oracle ONE</h1>
 
 
 Projeto
