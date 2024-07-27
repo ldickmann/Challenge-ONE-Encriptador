@@ -31,3 +31,7 @@ Por exemplo:
 Github Pages
 ---
 https://ldickmann.github.io/challenger-one-2024/
+
+Badge Challenge Alura & Oracle ONE
+---
+![Prancheta 3](https://github.com/user-attachments/assets/be0fe943-38f0-4136-9679-60a7ca4fa2ae)
