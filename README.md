@@ -30,7 +30,7 @@ Por exemplo:
 
 Github Pages
 ---
-https://ldickmann.github.io/challenger-one-2024/
+https://ldickmann.github.io/Challenge-ONE-2024/
 
 Badge Challenge Alura & Oracle ONE
 ---
